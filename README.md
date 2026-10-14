@@ -17,9 +17,12 @@ genai-fundamentals/
 ├── 4. Pretraining 101/
 │   ├── README.md
 │   └── pretraining-from-scratch.ipynb
-└── 5. Post-Training 101/
+├── 5. Post-Training 101/
+│   ├── README.md
+│   └── code-snippets.md
+└── 6. Post-Training in Code/
     ├── README.md
-    └── code-snippets.md
+    └── post-training-sft-dpo.ipynb
 ```
 
 Each folder has a README with a summary of the post.
@@ -56,6 +59,16 @@ Pretrains a tiny GPT from scratch on a public-domain book from Project Gutenberg
 
 ---
 
+### 6. Post-Training in Code
+
+**Notebook:** `6. Post-Training in Code/post-training-sft-dpo.ipynb`
+
+**Blog post:** [Post-Training in Code: Fine-Tune Your Own Assistant with SFT and DPO](https://www.mlwhiz.com/p/post-training-in-code-sft-dpo)
+
+The hands-on companion to Part 5. Takes Qwen3.5-0.8B-Base through SFT (twice, full fine-tuning and LoRA) and then DPO, on one GPU, with the real generations and loss curves at every stage.
+
+---
+
 ## Blog Series
 
 | # | Post | Code |
@@ -65,6 +78,7 @@ Pretrains a tiny GPT from scratch on a public-domain book from Project Gutenberg
 | 3 | [What is an LLM? Tokens, Embeddings, and the Big Picture](https://www.mlwhiz.com/p/what-is-an-llm-tokens-embeddings) | `3. What is an LLM/` |
 | 4 | [Pretraining 101: Data, Scale, and the Loss Function](https://www.mlwhiz.com/p/pretraining-101-data-scale-and-the) | `4. Pretraining 101/` |
 | 5 | [Post-Training 101: From Base Model to Assistant](https://www.mlwhiz.com/p/post-training-101-from-base-model) | [`5. Post-Training 101/`](5.%20Post-Training%20101/) (code snippets) |
+| 6 | [Post-Training in Code: Fine-Tune Your Own Assistant with SFT and DPO](https://www.mlwhiz.com/p/post-training-in-code-sft-dpo) | [`6. Post-Training in Code/`](6.%20Post-Training%20in%20Code/) |
 
 ## Related
 

@@ -31,4 +31,4 @@ It ends with RLAIF and Constitutional AI, and a decision guide for which method 
 
 This post has no notebook. The code blocks from the post are collected in [code-snippets.md](code-snippets.md). They're fragments, not a runnable notebook.
 
-The post says the next one in the series is a hands-on lab building SFT and DPO from scratch.
+The next post in the series is the hands-on lab that runs all of this: [`6. Post-Training in Code/`](../6.%20Post-Training%20in%20Code/).
