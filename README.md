@@ -6,13 +6,23 @@ Code for the [GenAI Fundamentals series](https://www.mlwhiz.com) on mlwhiz.com. 
 
 ```
 genai-fundamentals/
+├── 1. Understanding Transformers/
+│   └── README.md
 ├── 2. Transformer from Scratch/
+│   ├── README.md
 │   └── translation-using-transformers.ipynb
 ├── 3. What is an LLM/
+│   ├── README.md
 │   └── what-is-an-llm-really.ipynb
-└── 4. Pretraining 101/
-    └── pretraining-from-scratch.ipynb
+├── 4. Pretraining 101/
+│   ├── README.md
+│   └── pretraining-from-scratch.ipynb
+└── 5. Post-Training 101/
+    ├── README.md
+    └── code-snippets.md
 ```
+
+Each folder has a README with a summary of the post.
 
 ## Notebooks
 
@@ -50,11 +60,11 @@ Pretrains a tiny GPT from scratch on a public-domain book from Project Gutenberg
 
 | # | Post | Code |
 |---|------|------|
-| 1 | [Understanding Transformers, the MLE Way](https://www.mlwhiz.com/p/transformers) | Concept post, no notebook |
+| 1 | [Understanding Transformers, the MLE Way](https://www.mlwhiz.com/p/transformers) | [`1. Understanding Transformers/`](1.%20Understanding%20Transformers/) |
 | 2 | [The Transformer, Demystified — Let's Actually Build One](https://www.mlwhiz.com/p/the-transformer-demystified-lets) | `2. Transformer from Scratch/` |
 | 3 | [What is an LLM? Tokens, Embeddings, and the Big Picture](https://www.mlwhiz.com/p/what-is-an-llm-tokens-embeddings) | `3. What is an LLM/` |
 | 4 | [Pretraining 101: Data, Scale, and the Loss Function](https://www.mlwhiz.com/p/pretraining-101-data-scale-and-the) | `4. Pretraining 101/` |
-| 5 | [Post-Training 101: From Base Model to Assistant](https://www.mlwhiz.com/p/post-training-101-from-base-model) | Concept post, code companion coming |
+| 5 | [Post-Training 101: From Base Model to Assistant](https://www.mlwhiz.com/p/post-training-101-from-base-model) | [`5. Post-Training 101/`](5.%20Post-Training%20101/) (code snippets) |
 
 ## Related
 
